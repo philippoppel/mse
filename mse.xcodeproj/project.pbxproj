@@ -15,6 +15,7 @@
 		1C1ED011208E194500762AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1ED00F208E194500762AB0 /* LaunchScreen.storyboard */; };
 		1C1ED01C208E194500762AB0 /* mseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1ED01B208E194500762AB0 /* mseTests.swift */; };
 		1C1ED027208E194500762AB0 /* mseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1ED026208E194500762AB0 /* mseUITests.swift */; };
+		1C1ED036208E1CA000762AB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1ED035208E1C9F00762AB0 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1C1ED022208E194500762AB0 /* mseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C1ED026208E194500762AB0 /* mseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mseUITests.swift; sourceTree = "<group>"; };
 		1C1ED028208E194500762AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1ED035208E1C9F00762AB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C1ED036208E1CA000762AB0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				1C1ED01A208E194500762AB0 /* mseTests */,
 				1C1ED025208E194500762AB0 /* mseUITests */,
 				1C1ED002208E194500762AB0 /* Products */,
+				1C1ED034208E1C9F00762AB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				1C1ED028208E194500762AB0 /* Info.plist */,
 			);
 			path = mseUITests;
+			sourceTree = "<group>";
+		};
+		1C1ED034208E1C9F00762AB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C1ED035208E1C9F00762AB0 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = mse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -444,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = mse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
